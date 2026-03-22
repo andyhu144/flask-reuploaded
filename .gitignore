@@ -1,0 +1,26 @@
+# test and packaging
+.coverage
+.tox
+*.egg-info/
+htmlcov/
+venv-wheel/
+venv-sdist/
+build/
+_build/
+dist/
+
+# ide
+.vscode/
+
+# general
+*.pyc
+
+# documentation
+docs/_build/*
+
+# venv
+.venv/*
+
+# ignore static files of examples
+examples/static/*
+examples/*/static/*
